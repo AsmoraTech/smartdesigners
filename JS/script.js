@@ -43,3 +43,4 @@ const animatePath = (path, duration) => {
 
 animatePath(path1, 2000); // Animate path1 in 2 seconds
 animatePath(path2, 1500); // Animate path2 in 1.5 seconds (adjust timings as needed)
+
