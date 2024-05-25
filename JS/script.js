@@ -46,21 +46,3 @@ animatePath(path2, 1500); // Animate path2 in 1.5 seconds (adjust timings as nee
 
 // our success in numbers section
 
-const counters = document.querySelectorAll('.count-number');
-
-counters.forEach(counter => {
-  const target = +counter.dataset.target;
-  let count = 0;
-  const increment = target / 100; // Adjust for desired animation speed
-
-  const updateCount = () => {
-    count = Math.min(count + increment, target);
-    counter.textContent = count; // Update without .toFixed(0)
-
-    if (count < target) {
-      setTimeout(updateCount, 25); // Adjust for desired animation interval
-    }
-  };
-
-  updateCount();
-});
