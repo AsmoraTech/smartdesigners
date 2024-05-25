@@ -230,6 +230,26 @@ header .icons #menu-bars {
 }
 
 
+/*------------------------------------------------ Gallery Page  ------------------------------------------------*/
+
+
+.filter-button
+{
+  font-size: 2rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  color: white;
+  background: transparent
+
+}
+
+
+.active-gallery{
+  color: black;
+  background-color: var(--jasmine);
+}
+
 
 /* ---------------------------------------------footer ------------------------------------------------*/
 .social-icons a{
