@@ -245,9 +245,10 @@ header .icons #menu-bars {
 }
 
 
-.active-gallery{
+.active-gallery, .filter-button:hover{
   color: black;
   background-color: var(--jasmine);
+  transform: translateY(-5px);
 }
 
 
