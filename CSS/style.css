@@ -251,6 +251,12 @@ header .icons #menu-bars {
   transform: translateY(-5px);
 }
 
+/*------------------------------------------------ Contact Page  ------------------------------------------------*/
+
+.form-control {
+  font-size: 18px; /* Adjust the size as needed */
+}
+
 
 /* ---------------------------------------------footer ------------------------------------------------*/
 .social-icons a{
